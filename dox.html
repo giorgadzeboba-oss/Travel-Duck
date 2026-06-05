@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Duck</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="page site">
+        <div class="container">
+            <div class="wrapper">
+                
+               
+                <div class="login">
+                    <div class="content-heading">
+                        <div class="y-style">
+                            <div class="Logo"><a href="index.html">Travel <span>Duck</span></a></div> 
+                            <div class="welcome">
+                                <h2>Welcome <br> Back!</h2>
+                                <p>აქ შესაძლებელია დარეგისტრირდე ან შეხვიდე შენს ექაუნთში</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="content-from">
+                        <div class="y-style">
+                            <form action="" onsubmit="handleLogin(event)">
+                                <fieldset class="form-fieldset">
+                                    <legend class="form-legend">Login Form</legend>
+                                    <p>
+                                        <label for="login-email">Email</label>
+                                        <input type="email" id="login-email" name="email" placeholder="Enter Email" required>
+                                    </p>
+                                    <p>
+                                        <label for="login-pass">Password</label>
+                                        <input type="password" id="login-pass" name="password" placeholder="Enter Password" required>
+                                    </p>
+                                    <p class="chek">
+                                        <input type="checkbox" id="remember" name="remember">
+                                        <label for="remember">Remember me</label>
+                                    </p>
+                                    <p><button type="submit" name="login-submit">Login</button></p>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="logup">
+                    <div class="content-heading">
+                        <div class="y-style">
+                            <div class="Logo"><a href="index.html">Travel <span>Duck</span></a></div> 
+                            <div class="welcome">
+                                <h2>Sign Up<br> Now!</h2>
+                                <p>Here you can login or register</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="content-from">
+                        <div class="y-style">
+                            <form action="" onsubmit="handleSignup(event)">
+                                <fieldset class="form-fieldset">
+                                    <legend class="form-legend">Registration Form</legend>
+                                    <p>
+                                        <label for="reg-name">Your Name</label>
+                                        <input type="text" id="reg-name" name="full_name" placeholder="Enter Name" required>
+                                    </p>
+                                    <p>
+                                        <label for="reg-email">Email</label>
+                                        <input type="email" id="reg-email" name="email" placeholder="Enter Email" required>
+                                    </p>
+                                    <p>
+                                        <label for="reg-pass">Password</label>
+                                        <input type="password" id="reg-pass" name="password" placeholder="Enter Password" required>
+                                    </p>
+                                    <p class="chek">
+                                        <input type="checkbox" id="terms" name="terms" required>
+                                        <label for="terms">I agree to terms and conditions</label>
+                                    </p>
+                                    <p><button type="submit" name="signup-submit">Sign Up</button></p>
+                                </fieldset>
+                            </form>
+                            <div class="social">
+                                <p><span>Or Sign Up With..</span></p>
+                                <div class="social">
+                                 <a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
+                                  <a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
+                                   <a href="https://www.twitter.com/"><img src="img/twitter.png" alt=""></a>
+                                    <a href="https://www.linkedin.com/feed/"><img src="img/linkedin.png" alt=""></a>
+                                     </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
